@@ -38,3 +38,7 @@ new_sqlite_classes = [ "NotificationsHub" ]
 [[migrations]]
 tag = "v2-backup-transfer-runner"
 new_sqlite_classes = [ "BackupTransferRunner" ]
+
+[[routes]]
+pattern = "vault.l1nq.net"
+custom_domain = true
